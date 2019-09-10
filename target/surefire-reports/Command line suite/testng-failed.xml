@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.herokuapp.qa.tests.CreateMissionsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifymissionlabel" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CreateMissionsPageTest -->
+      <class name="com.herokuapp.qa.tests.SubDivisonMissionPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyaddmision_as_subdepart" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.SubDivisonMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.BreadcrumbsPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="ClickBreadcumlink"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.BreadcrumbsPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

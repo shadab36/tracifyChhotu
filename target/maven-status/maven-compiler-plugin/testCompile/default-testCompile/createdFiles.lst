@@ -1,0 +1,8 @@
+com\herokuapp\qa\tests\LoginPageTest.class
+com\herokuapp\qa\tests\MissionTable_expandPageTest.class
+com\herokuapp\qa\tests\SubDivisonMissionPageTest.class
+com\herokuapp\qa\tests\CreateMissionsPageTest.class
+com\herokuapp\qa\tests\EditProfilePageTest.class
+com\herokuapp\qa\tests\LogoutPageTest.class
+com\herokuapp\qa\tests\BreadcrumbsPageTest.class
+com\herokuapp\qa\tests\HomePageTest.class

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29391" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:32:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29391" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:32:15Z">
+      <class name="com.herokuapp.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="10972" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="verifyloginpagetitle" duration-ms="25" started-at="2019-09-10T05:31:56Z" description="Validation of Login page tile" finished-at="2019-09-10T05:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginpagetitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="teardown" is-config="true" duration-ms="945" started-at="2019-09-10T05:31:56Z" finished-at="2019-09-10T05:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="9321" started-at="2019-09-10T05:31:57Z" finished-at="2019-09-10T05:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="login" duration-ms="7127" started-at="2019-09-10T05:32:07Z" description="Tracify user login Page" finished-at="2019-09-10T05:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="teardown" is-config="true" duration-ms="965" started-at="2019-09-10T05:32:14Z" finished-at="2019-09-10T05:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
