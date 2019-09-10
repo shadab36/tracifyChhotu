@@ -3,6 +3,7 @@ com\herokuapp\qa\pages\HomePage.class
 com\herokuapp\qa\pages\SubDivisonMissionPage.class
 com\herokuapp\qa\util\TestUtil.class
 com\herokuapp\qa\pages\EditProfilePage.class
+com\herokuapp\qa\pages\NonAdminUserPage.class
 com\herokuapp\qa\pages\LoginPage.class
 com\herokuapp\qa\pages\BreadcrumbsPage.class
 com\herokuapp\qa\pages\MissionTable_ExpandPage.class

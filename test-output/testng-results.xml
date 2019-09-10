@@ -1,37 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29391" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:32:15Z">
+  <suite name="Default suite" duration-ms="148427" started-at="2019-09-10T09:48:34Z" finished-at="2019-09-10T09:51:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29391" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:32:15Z">
-      <class name="com.herokuapp.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="10972" started-at="2019-09-10T05:31:45Z" finished-at="2019-09-10T05:31:56Z">
+    <test name="Default test" duration-ms="148427" started-at="2019-09-10T09:48:34Z" finished-at="2019-09-10T09:51:03Z">
+      <class name="com.herokuapp.qa.tests.NonAdminUserPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="setup" is-config="true" duration-ms="11738" started-at="2019-09-10T09:48:35Z" finished-at="2019-09-10T09:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="verifyloginpagetitle" duration-ms="25" started-at="2019-09-10T05:31:56Z" description="Validation of Login page tile" finished-at="2019-09-10T05:31:56Z">
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="verifyHomePageTitle" duration-ms="29778" started-at="2019-09-10T09:48:47Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-09-10T09:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testuser748596]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamaza2019+]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyloginpagetitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="teardown" is-config="true" duration-ms="945" started-at="2019-09-10T05:31:56Z" finished-at="2019-09-10T05:31:57Z">
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="teardown" is-config="true" duration-ms="989" started-at="2019-09-10T09:49:17Z" finished-at="2019-09-10T09:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="setup" is-config="true" duration-ms="9321" started-at="2019-09-10T05:31:57Z" finished-at="2019-09-10T05:32:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="setup" is-config="true" duration-ms="12382" started-at="2019-09-10T09:49:17Z" finished-at="2019-09-10T09:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="login" duration-ms="7127" started-at="2019-09-10T05:32:07Z" description="Tracify user login Page" finished-at="2019-09-10T05:32:14Z">
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="verifyHomePageTitle" duration-ms="27131" started-at="2019-09-10T09:49:30Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-09-10T09:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamaza2019+]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@5f2108b5]" name="teardown" is-config="true" duration-ms="965" started-at="2019-09-10T05:32:14Z" finished-at="2019-09-10T05:32:15Z">
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="teardown" is-config="true" duration-ms="2605" started-at="2019-09-10T09:49:57Z" finished-at="2019-09-10T09:50:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="setup" is-config="true" duration-ms="12549" started-at="2019-09-10T09:50:00Z" finished-at="2019-09-10T09:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="verifyHomePageTitle" duration-ms="28159" started-at="2019-09-10T09:50:12Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-09-10T09:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChhotuQa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chhotu2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="teardown" is-config="true" duration-ms="1106" started-at="2019-09-10T09:50:40Z" finished-at="2019-09-10T09:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="setup" is-config="true" duration-ms="10355" started-at="2019-09-10T09:50:41Z" finished-at="2019-09-10T09:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="verifyHomePageTitle" duration-ms="9730" started-at="2019-09-10T09:50:52Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-09-10T09:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chhotu2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@3f49dace]" name="teardown" is-config="true" duration-ms="1099" started-at="2019-09-10T09:51:02Z" finished-at="2019-09-10T09:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.NonAdminUserPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

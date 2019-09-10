@@ -57,20 +57,26 @@ public class Base {
 		public static void initialization()throws MalformedURLException
 		{
 			String browserName = prop.getProperty("browser");
-
+			 DesiredCapabilities cab = new DesiredCapabilities();
 			if(browserName.equals("Chrome")){
-				WebDriverManager.chromedriver().setup();		
-				driver = new ChromeDriver(); 
+				cab=DesiredCapabilities.chrome();
+				cab.setPlatform(Platform.WINDOWS);
+				String hubUrl = "http://localhost:4444/wd/hub";
+				  driver=new RemoteWebDriver(new URL(hubUrl),cab);
+				driver.manage().window().maximize();
+				
+//				WebDriverManager.chromedriver().setup();		
+//				driver = new ChromeDriver(); 
 			}
 			else if(browserName.equals("FireFox")){
 		
 			}
 			else if (browserName.equals("Grid")) {
-				nodeURL = "http://10.50.88.59:4444/wd/hub";
-				DesiredCapabilities capability = DesiredCapabilities.chrome();
-				capability.setBrowserName("chrome");
-				capability.setPlatform(Platform.WINDOWS);
-				driver = new RemoteWebDriver(new URL(nodeURL), capability);
+//				nodeURL = "http://10.50.88.59:4444/wd/hub";
+//				DesiredCapabilities capability = DesiredCapabilities.chrome();
+//				capability.setBrowserName("chrome");
+//				capability.setPlatform(Platform.WINDOWS);
+//				driver = new RemoteWebDriver(new URL(nodeURL), capability);
 			
 			}
 

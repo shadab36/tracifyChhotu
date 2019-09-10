@@ -3,8 +3,6 @@ package com.herokuapp.qa.tests;
 import static org.testng.Assert.assertEquals;
 
 import java.net.MalformedURLException;
-
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -43,12 +41,6 @@ public class HomePageTest extends Base {
 		String ProfileName=homepage.username();
 		assertEquals(ProfileName, "ChhotuManual","Profile name is not matched");
 		
-	}
-	@AfterMethod
-
-	public void Exit() {
-
-		driver.quit();
 	}
 	
 }

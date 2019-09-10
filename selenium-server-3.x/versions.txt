@@ -1,0 +1,7 @@
+client-combined.jar, client-combined-sources.jar :	3.14
+selenium-server-standalone.jar:				3.14
+IEDriverServer.exe :					IEDriverServer_x64_3.14.0
+chromedriver.exe :					 
+geckodriver.exe :					geckodriver-v0.23.0-win64
+
+C:\Users\Administrateur\Downloads\nssm-2.24\nssm-2.24\win64>nssm install SeleniumServer C:\DATA\Installation\Java\jdk1.8.0_191\bin\java.exe -Dwebdriver.gecko.driver=C:\DATA\Tracify\tests_projects_mygit\reference\selenium-server-3.x\geckodriver.exe -Dwebdriver.chrome.driver=C:\DATA\Tracify\tests_projects_mygit\reference\selenium-server-3.x\chromedriver.exe -Dwebdriver.ie.driver=C:\DATA\Tracify\tests_projects_mygit\reference\selenium-server-3.x\IEDriverServer.exe -jar C:\DATA\Tracify\tests_projects_mygit\reference\selenium-server-3.x\selenium-server-standalone-3.14.0.jar -port 4555 -log C:\DATA\Tracify\tests_projects_mygit\reference\selenium-server-3.x\selenium.log

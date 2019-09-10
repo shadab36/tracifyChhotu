@@ -29,7 +29,7 @@ public class SubDivisonMissionPageTest extends Base{
 	public void setup() throws MalformedURLException {
 		initialization();
 		loginpage= new LoginPage();
-		homepage=loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
+		homepage = loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
 		createmission=new CreateMissionsPage();
 		submisssion=new SubDivisonMissionPage();
 	}

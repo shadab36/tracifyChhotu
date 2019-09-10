@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 10 11:02:49 IST 2019</td>
+<td>Started on:</td><td>Tue Sep 10 15:29:08 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>428 seconds (428358 ms)</td>
+<tr><td>Total time:</td><td>567 seconds (567895 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,109 +68,6 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.herokuapp.qa.tests.BreadcrumbsPageTest.setup()'><b>setup</b><br>Test class: com.herokuapp.qa.tests.BreadcrumbsPageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 292eaedf62c2945b0184000f7a819132
-*** Element info: {Using=css selector, value=body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Add_mission(CreateMissionsPage.java:100)
-	at com.herokuapp.qa.tests.BreadcrumbsPageTest.setup(BreadcrumbsPageTest.java:35)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace636002577", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace636002577'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 292eaedf62c2945b0184000f7a819132
-*** Element info: {Using=css selector, value=body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Add_mission(CreateMissionsPage.java:100)
-	at com.herokuapp.qa.tests.BreadcrumbsPageTest.setup(BreadcrumbsPageTest.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>33</td>
-<td>com.herokuapp.qa.tests.BreadcrumbsPageTest@6b143ee9</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -178,16 +75,16 @@ Session ID: 292eaedf62c2945b0184000f7a819132
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart()'><b>verifyaddmision_as_subdepart</b><br>Test class: com.herokuapp.qa.tests.SubDivisonMissionPageTest<br>Test method: verify add mission button with sub departement<br>Parameters: etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]&quot;}
+<td title='com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel()'><b>verifymissionlabel</b><br>Test class: com.herokuapp.qa.tests.CreateMissionsPageTest<br>Test method: Fills the crate mission filed<br>Parameters: Testing Department, etetet, tetyyt, ejkrk, rtggy, ewtytyewty</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(text(),&apos;etetet&apos;)]&quot;}
   (Session info: chrome=76.0.3809.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
 System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:62257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 35d95b744d58ff8a580edb747e2294f1
-*** Element info: {Using=xpath, value=//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a34745614e02b15b642d18d2eca45ba
+*** Element info: {Using=xpath, value=//li[contains(text(),&apos;etetet&apos;)]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -198,18 +95,18 @@ Session ID: 35d95b744d58ff8a580edb747e2294f1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.herokuapp.qa.pages.SubDivisonMissionPage.By_department(SubDivisonMissionPage.java:36)
-	at com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart(SubDivisonMissionPageTest.java:46)
-... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace179690980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace179690980'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]&quot;}
+	at com.herokuapp.qa.pages.CreateMissionsPage.Select_Catégorie(CreateMissionsPage.java:114)
+	at com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel(CreateMissionsPageTest.java:66)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace955660118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace955660118'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(text(),&apos;etetet&apos;)]&quot;}
   (Session info: chrome=76.0.3809.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
 System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:62257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 35d95b744d58ff8a580edb747e2294f1
-*** Element info: {Using=xpath, value=//a[contains(@class, &apos;dropdown-item&apos;)][contains(text(),&apos;etett&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a34745614e02b15b642d18d2eca45ba
+*** Element info: {Using=xpath, value=//li[contains(text(),&apos;etetet&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -224,8 +121,8 @@ Session ID: 35d95b744d58ff8a580edb747e2294f1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.herokuapp.qa.pages.SubDivisonMissionPage.By_department(SubDivisonMissionPage.java:36)
-	at com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart(SubDivisonMissionPageTest.java:46)
+	at com.herokuapp.qa.pages.CreateMissionsPage.Select_Catégorie(CreateMissionsPage.java:114)
+	at com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel(CreateMissionsPageTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -262,95 +159,8 @@ Session ID: 35d95b744d58ff8a580edb747e2294f1
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
-<td>22</td>
-<td>com.herokuapp.qa.tests.SubDivisonMissionPageTest@6537cf78</td></tr>
-<tr>
-<td title='com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel()'><b>verifymissionlabel</b><br>Test class: com.herokuapp.qa.tests.CreateMissionsPageTest<br>Test method: Fills the crate mission filed<br>Parameters: etett, etetet, tetyyt, ejkrk, rtggy, ewtytyewty</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(text(),&apos;etett&apos;)]&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:61942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3ad1da0af6b2e3333185dfc549e7a12f
-*** Element info: {Using=xpath, value=//li[contains(text(),&apos;etett&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Select_Département(CreateMissionsPage.java:107)
-	at com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel(CreateMissionsPageTest.java:65)
-... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1240537166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1240537166'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[contains(text(),&apos;etett&apos;)]&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:61942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3ad1da0af6b2e3333185dfc549e7a12f
-*** Element info: {Using=xpath, value=//li[contains(text(),&apos;etett&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Select_Département(CreateMissionsPage.java:107)
-	at com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel(CreateMissionsPageTest.java:65)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>28</td>
-<td>com.herokuapp.qa.tests.CreateMissionsPageTest@1936f0f5</td></tr>
+<td>30</td>
+<td>com.herokuapp.qa.tests.CreateMissionsPageTest@6615435c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -360,163 +170,90 @@ Session ID: 3ad1da0af6b2e3333185dfc549e7a12f
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.herokuapp.qa.tests.BreadcrumbsPageTest.ClickBreadcumlink()'><b>ClickBreadcumlink</b><br>Test class: com.herokuapp.qa.tests.BreadcrumbsPageTest<br>Test method: Verify the breadcrum</td>
+<td></td>
+<td>5</td>
+<td>com.herokuapp.qa.tests.BreadcrumbsPageTest@1936f0f5</td></tr>
+<tr>
 <td title='com.herokuapp.qa.tests.HomePageTest.VerifyUserProfileName()'><b>VerifyUserProfileName</b><br>Test class: com.herokuapp.qa.tests.HomePageTest<br>Test method: Validation the userprofile name</td>
 <td></td>
 <td>0</td>
-<td>com.herokuapp.qa.tests.HomePageTest@4909b8da</td></tr>
+<td>com.herokuapp.qa.tests.HomePageTest@3a03464</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.LogoutPageTest.clicklogout()'><b>clicklogout</b><br>Test class: com.herokuapp.qa.tests.LogoutPageTest<br>Test method: Validation the user logout the app</td>
 <td></td>
 <td>4</td>
-<td>com.herokuapp.qa.tests.LogoutPageTest@2d3fcdbd</td></tr>
+<td>com.herokuapp.qa.tests.LogoutPageTest@617c74e5</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.MissionTable_expandPageTest.expand_table()'><b>expand_table</b><br>Test class: com.herokuapp.qa.tests.MissionTable_expandPageTest<br>Test method: Validation the Exapand table option</td>
 <td></td>
 <td>4</td>
-<td>com.herokuapp.qa.tests.MissionTable_expandPageTest@617c74e5</td></tr>
+<td>com.herokuapp.qa.tests.MissionTable_expandPageTest@6537cf78</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.LoginPageTest.login()'><b>login</b><br>Test class: com.herokuapp.qa.tests.LoginPageTest<br>Test method: Tracify user login Page</td>
 <td></td>
-<td>7</td>
-<td>com.herokuapp.qa.tests.LoginPageTest@3a03464</td></tr>
+<td>8</td>
+<td>com.herokuapp.qa.tests.LoginPageTest@2d3fcdbd</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.EditProfilePageTest.update()'><b>update</b><br>Test class: com.herokuapp.qa.tests.EditProfilePageTest<br>Test method: Update the user profile<br>Parameters: Indore</td>
 <td></td>
-<td>8</td>
-<td>com.herokuapp.qa.tests.EditProfilePageTest@6615435c</td></tr>
+<td>4</td>
+<td>com.herokuapp.qa.tests.EditProfilePageTest@4909b8da</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.HomePageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.herokuapp.qa.tests.HomePageTest<br>Test method: Validation the home page title</td>
 <td></td>
 <td>0</td>
-<td>com.herokuapp.qa.tests.HomePageTest@4909b8da</td></tr>
+<td>com.herokuapp.qa.tests.HomePageTest@3a03464</td></tr>
+<tr>
+<td title='com.herokuapp.qa.tests.NonAdminUserPageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.herokuapp.qa.tests.NonAdminUserPageTest<br>Test method: Validation the non admin user loginthe application<br>Parameters: Testuser748596, Hamaza2019+</td>
+<td></td>
+<td>27</td>
+<td>com.herokuapp.qa.tests.NonAdminUserPageTest@67b6d4ae</td></tr>
+<tr>
+<td title='com.herokuapp.qa.tests.NonAdminUserPageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.herokuapp.qa.tests.NonAdminUserPageTest<br>Test method: Validation the non admin user loginthe application<br>Parameters: Testuser, Hamaza2019+</td>
+<td></td>
+<td>27</td>
+<td>com.herokuapp.qa.tests.NonAdminUserPageTest@67b6d4ae</td></tr>
+<tr>
+<td title='com.herokuapp.qa.tests.NonAdminUserPageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.herokuapp.qa.tests.NonAdminUserPageTest<br>Test method: Validation the non admin user loginthe application<br>Parameters: ChhotuQa, Chhotu2019+</td>
+<td></td>
+<td>27</td>
+<td>com.herokuapp.qa.tests.NonAdminUserPageTest@67b6d4ae</td></tr>
+<tr>
+<td title='com.herokuapp.qa.tests.NonAdminUserPageTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.herokuapp.qa.tests.NonAdminUserPageTest<br>Test method: Validation the non admin user loginthe application<br>Parameters: chhotuManual, Chhotu2019+</td>
+<td></td>
+<td>17</td>
+<td>com.herokuapp.qa.tests.NonAdminUserPageTest@67b6d4ae</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.CreateMissionsPageTest.verifyTableList()'><b>verifyTableList</b><br>Test class: com.herokuapp.qa.tests.CreateMissionsPageTest<br>Test method: verify the the table list</td>
 <td></td>
 <td>4</td>
-<td>com.herokuapp.qa.tests.CreateMissionsPageTest@1936f0f5</td></tr>
+<td>com.herokuapp.qa.tests.CreateMissionsPageTest@6615435c</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.EditProfilePageTest.verify_updated_data()'><b>verify_updated_data</b><br>Test class: com.herokuapp.qa.tests.EditProfilePageTest<br>Test method: verify the edited profile data<br>Parameters: Indore</td>
 <td></td>
 <td>0</td>
-<td>com.herokuapp.qa.tests.EditProfilePageTest@6615435c</td></tr>
+<td>com.herokuapp.qa.tests.EditProfilePageTest@4909b8da</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart()'><b>verifyaddmision_as_subdepart</b><br>Test class: com.herokuapp.qa.tests.SubDivisonMissionPageTest<br>Test method: verify add mission button with sub departement<br>Parameters: Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1</td>
 <td></td>
-<td>7</td>
-<td>com.herokuapp.qa.tests.SubDivisonMissionPageTest@6537cf78</td></tr>
+<td>8</td>
+<td>com.herokuapp.qa.tests.SubDivisonMissionPageTest@34b7bfc0</td></tr>
+<tr>
+<td title='com.herokuapp.qa.tests.SubDivisonMissionPageTest.verifyaddmision_as_subdepart()'><b>verifyaddmision_as_subdepart</b><br>Test class: com.herokuapp.qa.tests.SubDivisonMissionPageTest<br>Test method: verify add mission button with sub departement<br>Parameters: Testing Department, etetet, tetyyt, ejkrk, rtggy, ewtytyewty</td>
+<td></td>
+<td>8</td>
+<td>com.herokuapp.qa.tests.SubDivisonMissionPageTest@34b7bfc0</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.LoginPageTest.verifyloginpagetitle()'><b>verifyloginpagetitle</b><br>Test class: com.herokuapp.qa.tests.LoginPageTest<br>Test method: Validation of Login page tile</td>
 <td></td>
 <td>0</td>
-<td>com.herokuapp.qa.tests.LoginPageTest@3a03464</td></tr>
+<td>com.herokuapp.qa.tests.LoginPageTest@2d3fcdbd</td></tr>
 <tr>
 <td title='com.herokuapp.qa.tests.CreateMissionsPageTest.verifymissionlabel()'><b>verifymissionlabel</b><br>Test class: com.herokuapp.qa.tests.CreateMissionsPageTest<br>Test method: Fills the crate mission filed<br>Parameters: Testing  New Department, Testing Category, Client 1, chhotuManual, chhotuManual, Test Deadline1</td>
 <td></td>
-<td>21</td>
-<td>com.herokuapp.qa.tests.CreateMissionsPageTest@1936f0f5</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.herokuapp.qa.tests.BreadcrumbsPageTest.ClickBreadcumlink()'><b>ClickBreadcumlink</b><br>Test class: com.herokuapp.qa.tests.BreadcrumbsPageTest<br>Test method: Verify the breadcrum</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 292eaedf62c2945b0184000f7a819132
-*** Element info: {Using=css selector, value=body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Add_mission(CreateMissionsPage.java:100)
-	at com.herokuapp.qa.tests.BreadcrumbsPageTest.setup(BreadcrumbsPageTest.java:35)
-... Removed 41 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace892609277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace892609277'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button&quot;}
-  (Session info: chrome=76.0.3809.132)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;AMW-G1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 292eaedf62c2945b0184000f7a819132
-*** Element info: {Using=css selector, value=body &gt; div.app-content &gt; div &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; a &gt; button}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.herokuapp.qa.pages.CreateMissionsPage.Add_mission(CreateMissionsPage.java:100)
-	at com.herokuapp.qa.tests.BreadcrumbsPageTest.setup(BreadcrumbsPageTest.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</pre></div></td>
-<td>0</td>
-<td>com.herokuapp.qa.tests.BreadcrumbsPageTest@6b143ee9</td></tr>
+<td>36</td>
+<td>com.herokuapp.qa.tests.CreateMissionsPageTest@6615435c</td></tr>
 </table><p>
 </body>
 </html>
